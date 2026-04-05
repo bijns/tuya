@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Tuya Water Pump",
+        "description": "Enter the local connection details for your water pump. Use the tinytuya wizard to obtain your device ID and local key.",
+        "data": {
+          "host": "Device IP Address",
+          "device_id": "Device ID",
+          "local_key": "Local Key",
+          "protocol_version": "Protocol Version"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to device. Check IP, Device ID, and Local Key."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}
